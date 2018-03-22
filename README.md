@@ -26,6 +26,7 @@ Please cite the above publication if you find STRCF useful in your research. The
 # Contact
 
 Feng Li
+
 Email: fengli_hit@hotmail.com
 
 # Installation
@@ -88,7 +89,7 @@ Results on the VOT-2016 dataset is also provided, and we are now prepraring the 
 
 2. HOG features. It uses the PDollar Toolbox [2], which is included as a git submodule in external_libs/pdollar_toolbox/.
 
-3. Lookup table features. These are implemented as a lookup table that directly maps an RGB or grayscale value to a feature vector. Currently, Color Names [8] and Intensity Channels [9] are included.
+3. Lookup table features. These are implemented as a lookup table that directly maps an RGB or grayscale value to a feature vector.
 
 4. Colorspace features. Currently grayscale and RGB are implemented.
 
