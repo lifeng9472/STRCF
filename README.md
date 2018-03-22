@@ -84,7 +84,7 @@ Results on the VOT-2016 dataset is also provided, and we are now prepraring the 
 
 ### Features
 
-1. Deep CNN features. It uses matconvnet [1], which is included as a git submodule in external_libs/matconvnet/. The `imagenet-vgg-m-2048` network available at http://www.vlfeat.org/matconvnet/pretrained/ was used in the ECCV paper. You can use other networks, by placing them in the feature_extraction/networks/ folder.
+1. Deep CNN features. It uses matconvnet [1], which is included as a git submodule in external_libs/matconvnet/. The `imagenet-vgg-m-2048` network available at http://www.vlfeat.org/matconvnet/pretrained/ was used. You can try other networks, by placing them in the feature_extraction/networks/ folder.
 
 2. HOG features. It uses the PDollar Toolbox [2], which is included as a git submodule in external_libs/pdollar_toolbox/.
 
@@ -94,7 +94,7 @@ Results on the VOT-2016 dataset is also provided, and we are now prepraring the 
 
 ## Acknowledgements
 
-We thanks for Dr. `Martin Danelljan` and  `Hamed Kiani` for their valuable help on our work. In this work,
+We thank for Dr. `Martin Danelljan` and  `Hamed Kiani` for their valuable help on our work. In this work,
 we have borrowed the feature extraction modules from the ECO tracker (https://github.com/martin-danelljan/ECO) and the parameter settings from BACF (www.hamedkiani.com/bacf.html).
 
 ## References
