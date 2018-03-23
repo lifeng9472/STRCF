@@ -55,7 +55,7 @@ params.number_of_scales = 5;            % Number of scales to run the detector
 params.scale_step = 1.01;               % The scale factor
 
 % Visualization
-params.visualization = 0;               % Visualiza tracking and detection scores
+params.visualization = 1;               % Visualiza tracking and detection scores
 
 % GPU
 params.use_gpu = false;                 % Enable GPU or not

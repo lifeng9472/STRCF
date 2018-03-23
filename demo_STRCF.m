@@ -3,11 +3,12 @@
 % included "Human3" video.
 
 % Add paths
-%setup_paths();
+setup_paths();
 
 %  Load video information
-base_path  = 'E:/database/VTB100/';
-video  = choose_video(base_path);
+base_path  = './sequences';
+%video  = choose_video(base_path);
+video = 'Human3';
 
 video_path = [base_path '/' video];
 [seq, gt_boxes] = load_video_info(video_path);
