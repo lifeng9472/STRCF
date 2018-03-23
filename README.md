@@ -50,7 +50,7 @@ Email: fengli_hit@hotmail.com
 
 4. Run the demo script to test the tracker:
 
-   |>> demo
+   |>> demo_STRCF
 
 
 Note:  
