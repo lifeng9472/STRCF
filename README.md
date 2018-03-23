@@ -18,7 +18,9 @@ Compared with SRDCF, STRCF with hand-crafted features provides a ~5 times speedu
 Details about the STRCF tracker can be found in our CVPR 2018 paper:
 
 Feng Li, Cheng Tian, Wangmeng Zuo, Lei Zhang and Ming-Hsuan Yang.  
+
 Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking
+
 In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. 
 
 Please cite the above publication if you find STRCF useful in your research. The bibtex entry is:
