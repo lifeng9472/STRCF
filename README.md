@@ -75,7 +75,7 @@ Tracking performance on the OTB-2015, Temple-Color is given as follows,
  </div>   
 
 
-Results on the VOT-2016 dataset is also provided, and we are now prepraring the runfiles on VOT-2016 benchmark.
+Results on the VOT-2016 dataset are also provided, and we are now prepraring the runfiles on VOT-2016 benchmark.
 
 |               | ECO  | SRDCF| SRDCFDecon| BACF | DeepSRDCF | ECO-HC | STRCF | DeepSTRCF|
 | :-----------: |:----:|:----:|:---------:|:----:|:---------:|:------:| -----:|:--------:|
