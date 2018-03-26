@@ -23,6 +23,13 @@ In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
 
 Please cite the above publication if you find STRCF useful in your research. The bibtex entry is:
 
+@Inproceedings{Li2018STRCF,  
+  title={Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking},  
+  author={Li, Feng and Tian, Cheng and Zuo, Wangmeng and Zhang, Lei and Yang, Ming Hsuan},  
+  booktitle={CVPR},  
+  year={2018},  
+}
+
 # Contact
 
 Feng Li
