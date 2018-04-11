@@ -80,6 +80,13 @@ end
 
 % Combine the features. In particular, the hand-crafted features are concatnated together
 % along the channels.
+if(CNN_ind ~= -1)
+    res_feat = cell(2, 1);
+    res_feat{2} = CNN_feat{1};
+end
+
+% concatnate the grayscale and HOG features only when the input is the grayscale
+% image.
 if(CNN_ind ~=-1)
     if(num_features == 3)
         res_feat{1} = cat(3,feature_map{1}, feature_map{2});    
@@ -92,14 +99,6 @@ else
     else
         res_feat{1} = cat(3,feature_map{1}, feature_map{2});    
     end
-end
-
-% concatnate the grayscale and HOG features only when the input is the grayscale
-% image.
-if(num_features == 3 && CNN_ind ~= -1)
-    res_feat{1} = cat(3,feature_map{1}, feature_map{2});    
-else
-    res_feat{1} = cat(3,feature_map{1}, feature_map{2}, feature_map{3});  
 end
 
 end

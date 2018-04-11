@@ -6,7 +6,7 @@
 setup_paths();
 
 %  Load video information
-base_path  = './sequences';
+base_path  =  './sequences';
 %video  = choose_video(base_path);
 video = 'Human3';
 
