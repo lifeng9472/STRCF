@@ -60,7 +60,7 @@ Email: fengli_hit@hotmail.com
    |>> demo_STRCF
 
 
-Note:  
+**Note**:
 This package requires matconvnet [1], if you want to use CNN features, and PDollar Toolbox [2], if you want to use HOG features. Both these externals are included as git submodules and should be installed by following step 2. above.
 
 ## Description and Instructions
@@ -82,7 +82,17 @@ Tracking performance on the OTB-2015, Temple-Color is given as follows,
  </div>   
 
 
-Results on the VOT-2016 dataset are also provided, and we are now prepraring the runfiles on VOT-2016 benchmark.
+Results on the VOT-2016 dataset are also provided.
+
+* tracker_DeepSTRCF.m -  this file integrates the tracker into the VOT-2016 toolkit.
+
+**Note**:
+
+To run the tracker on VOT-2016 dataset, two things need to be taken:
+
+1. Change the location of the pre-trained CNN with `absolute path` rather than the `relative path` in feature_extraction/load_CNN.m. 
+
+2. Change the location of the STRCF tracker in tracker_DeepSTRCF.m.
 
 |               | ECO  | SRDCF| SRDCFDecon| BACF | DeepSRDCF | ECO-HC | STRCF | DeepSTRCF|
 | :-----------: |:----:|:----:|:---------:|:----:|:---------:|:------:| -----:|:--------:|
