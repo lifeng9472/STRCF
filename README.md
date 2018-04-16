@@ -21,6 +21,8 @@ Feng Li, Cheng Tian, Wangmeng Zuo, Lei Zhang and Ming-Hsuan Yang.
 Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking.</br>
 In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018. 
 
+The paper link is: https://arxiv.org/abs/1803.08679
+
 Please cite the above publication if you find STRCF useful in your research. The bibtex entry is:
 
 @Inproceedings{Li2018STRCF,  
