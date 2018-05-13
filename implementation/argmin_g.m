@@ -1,6 +1,5 @@
-function T = argmin_g(w0, zeta, X)
+function T = argmin_g(w0, zeta, X, T)
      lhd= 1 ./  (w0 .^2 + zeta); % left hand
-     T = gpuArray(zeros(size(X)));     
      
      % compute T for each channel
      for i = 1:size(X,3)
